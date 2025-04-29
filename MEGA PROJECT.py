@@ -52,7 +52,7 @@ def empty():
                       def clicked():
                                  messagebox.showinfo("Password error","Password cannot be empty")
                                  btn.destroy()
-                      img=Image.open("D:\\gif\\iconfinder_info_1282960.png")
+                      img=Image.open("https://github.com/abhi25819/Banking-management-system/blob/main/iconfinder_info_1282960.png?raw=true")
                       img=img.resize((29,29))
                       my=ImageTk.PhotoImage(img)
                       btn=ttk.Button(window,image=my,command=clicked)
@@ -62,7 +62,7 @@ def empty():
                       def clicked():
                                  messagebox.showinfo("Username error","Username cannot be empty")
                                  btn7.destroy()
-                      img=Image.open("D:\\gif\\iconfinder_info_1282960.png")
+                      img=Image.open("https://github.com/abhi25819/Banking-management-system/blob/main/iconfinder_info_1282960.png?raw=true")
                       img=img.resize((29,29))
                       my=ImageTk.PhotoImage(img)
                       btn7=ttk.Button(window,image=my,command=clicked)
@@ -72,7 +72,7 @@ def empty():
                       def clicked():
                                  messagebox.showinfo("Account no. error","Account no. must contain minimum 8 Characters")
                                  btn6.destroy()
-                      img=Image.open("D:\\gif\\iconfinder_info_1282960.png")
+                      img=Image.open("https://github.com/abhi25819/Banking-management-system/blob/main/iconfinder_info_1282960.png?raw=true")
                       img=img.resize((29,29))
                       my=ImageTk.PhotoImage(img)
                       btn6=ttk.Button(window,image=my,command=clicked)

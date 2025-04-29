@@ -16,7 +16,7 @@ cursor.execute('CREATE TABLE TEMP (acc_no bigint PRIMARY KEY, mobile_no bigint, 
 window=Tk()
 window.title("Banking Management System")
 window.geometry('1366x768')
-IMG=Image.open("D:\\gif\\3c8f12b0606ad428cacccc09fd98246c-1.gif")
+IMG=Image.open("https://github.com/abhi25819/Banking-management-system/blob/main/3c8f12b0606ad428cacccc09fd98246c-1.png?raw=true")
 IMG=IMG.resize((1366,768))
 bgi=ImageTk.PhotoImage(IMG)
 LBL=Label(window,image=bgi)
